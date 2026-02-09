@@ -31,4 +31,22 @@ export default function Home() {
     </main>
   );
 }
+.site {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: var(--space-xl) var(--space-md);
+  background-color: var(--color-bg-primary);
+}
+section {
+  margin-bottom: var(--space-xl);
+}
+h1 {
+  margin-bottom: var(--space-md);
+}
+
+h2 {
+  margin-top: var(--space-lg);
+  margin-bottom: var(--space-sm);
+}
+
 
