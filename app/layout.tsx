@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Briel OS",
-  description: "Clear Signal Design — Quiet Systems for Founders",
+  description: "Clear Signal Design — Strategic Systems Consulting",
 };
 
 export default function RootLayout({
@@ -14,9 +14,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <main className="site">
-          {children}
-        </main>
+        <main className="site">{children}</main>
       </body>
     </html>
   );
