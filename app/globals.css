@@ -123,4 +123,42 @@ h1 {
   text-decoration: none;
   border-radius: 4px;
 }
+.hero {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  max-width: 760px;
+}
+
+.tagline {
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+  color: var(--color-brand-primary);
+}
+
+.lead {
+  font-size: 1.05rem;
+  margin-bottom: 2.5rem;
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+}
+.btn-primary {
+  background-color: var(--color-brand-primary);
+  color: white;
+  padding: 0.8rem 1.4rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.btn-secondary {
+  border: 1px solid var(--color-border-subtle);
+  padding: 0.8rem 1.4rem;
+  border-radius: 6px;
+  text-decoration: none;
+  color: var(--color-text-primary);
+}
 
