@@ -1,28 +1,14 @@
-export default function Home() {
-  return (
-    <section className="hero">
-      <div className="hero-inner">
-        <h1>Briel OS</h1>
+<section className="hero">
+  <h1>Briel OS</h1>
+  <h2>Strategic Systems Design</h2>
+  <p>
+    Clear signal. Coherent structure. Quiet intelligence applied to real
+    decisions.
+  </p>
 
-        <p className="tagline">
-          Strategic Systems Design
-        </p>
+  <div className="hero-actions">
+    <a className="btn-primary">Explore Method</a>
+    <a className="btn-secondary">Contact</a>
+  </div>
+</section>
 
-        <p className="subtext">
-          Clear signal. Coherent structure.  
-          Quiet intelligence applied to real decisions.
-        </p>
-
-        <div className="cta-group">
-          <a href="/brielos" className="btn-primary">
-            Explore Method
-          </a>
-
-          <a href="/contact" className="btn-secondary">
-            Contact
-          </a>
-        </div>
-      </div>
-    </section>
-  );
-}
