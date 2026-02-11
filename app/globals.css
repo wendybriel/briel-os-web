@@ -57,3 +57,16 @@ p {
   max-width: 60ch;
   margin-bottom: 1.25rem;
 }
+:root {
+  /* Spacing scale */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 2rem;
+  --space-lg: 4rem;
+  --space-xl: 6rem;
+}
+.site {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: var(--space-lg);
+}
