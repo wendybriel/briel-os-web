@@ -1,21 +1,18 @@
-import "./globals.css";
-import type { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "Briel OS",
-  description: "Clear Signal Design — Strategic Systems Consulting",
-};
+import "./globals.css"
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode;
+  children: React.ReactNode
 }) {
   return (
     <html lang="en">
       <body>
-        <main className="site">{children}</main>
+        <main className="site">
+          {children}
+        </main>
       </body>
     </html>
-  );
+  )
 }
+
