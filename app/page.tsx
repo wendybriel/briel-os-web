@@ -5,9 +5,7 @@ export default function Home() {
 
       <h2>Decision Architecture for Founders</h2>
 
-      <p>
-        Clear Signal Design™ — Quiet systems for complex decisions
-      </p>
+      <p>Clear Signal Design™ — Quiet systems for complex decisions</p>
 
       <p>
         Most performance failures are not motivational. They are architectural.
@@ -18,9 +16,7 @@ export default function Home() {
         coherence, and authorship in founder and organizational systems.
       </p>
 
-      <p>
-        We do not coach. We diagnose and redesign.
-      </p>
+      <p>We do not coach. We diagnose and redesign.</p>
 
       <p>
         <a href="/method">View the Method</a>
@@ -52,7 +48,10 @@ export default function Home() {
       </p>
 
       <p>
-        <a href="mailto:briel.os@outlook.com">
+        <a
+          href="mailto:briel.os@outlook.com"
+          aria-label="Email BrielOS"
+        >
           Initiate a Conversation
         </a>
       </p>
@@ -67,15 +66,15 @@ export default function Home() {
             rel="noopener noreferrer"
             style={{
               fontSize: "0.875rem",
-              opacity: 0.7,
-              textDecoration: "none"
+              opacity: 0.65,
+              textDecoration: "none",
             }}
-            onMouseEnter={(e) =>
-              (e.currentTarget.style.textDecoration = "underline")
-            }
-            onMouseLeave={(e) =>
-              (e.currentTarget.style.textDecoration = "none")
-            }
+            onMouseEnter={(e) => {
+              e.currentTarget.style.textDecoration = "underline";
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.textDecoration = "none";
+            }}
           >
             Method Substack
           </a>
