@@ -46,14 +46,16 @@ export default function Home() {
 
         <p style={{ marginTop: "3rem" }}>
           <a
-            href="/method"
+            href="https://substack.com/@thefilteredfolio?utm_source=brielos"
+            target="_blank"
+            rel="noopener noreferrer"
             style={{
               textDecoration: "none",
               color: "#5271B8",
               fontWeight: 500,
             }}
           >
-            View the Method →
+            Read the Method →
           </a>
         </p>
       </section>
@@ -129,7 +131,7 @@ export default function Home() {
         <p>© 2026 BrielOS. Founded by Wendy Briel.</p>
         <p style={{ marginTop: "0.75rem" }}>
           <a
-            href="https://substack.com/@thefilteredfolio?utm_source=user-menu"
+            href="https://substack.com/@thefilteredfolio"
             target="_blank"
             rel="noopener noreferrer"
             style={{
