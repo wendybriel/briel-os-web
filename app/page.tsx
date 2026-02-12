@@ -111,7 +111,7 @@ export default function Home() {
             <Link href="/method" className="hover:text-[#52718B8E] transition-colors">
               Method
             </Link>
-            <a href="briel.os@outlook.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#52718B8E] transition-colors">
+            <a href="https://thefilteredfolio.substack.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#52718B8E] transition-colors">
               Substack
             </a>
           </div>
