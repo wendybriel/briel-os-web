@@ -1,6 +1,15 @@
 export default function Home() {
   return (
-    <main>
+    <main
+      style={{
+        maxWidth: "900px",
+        margin: "0 auto",
+        padding: "5rem 2rem",
+        fontFamily:
+          "-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif",
+        color: "#2F3E4D",
+      }}
+    >
       {/* HERO */}
       <section style={{ marginBottom: "5rem" }}>
         <div
@@ -43,27 +52,12 @@ export default function Home() {
           <br />
           We do not coach. We diagnose and redesign.
         </p>
-
-        <p style={{ marginTop: "3rem" }}>
-          <a
-            href="https://substack.com/@thefilteredfolio?utm_source=brielos"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{
-              textDecoration: "none",
-              color: "#5271B8",
-              fontWeight: 500,
-            }}
-          >
-            Read the Method →
-          </a>
-        </p>
       </section>
 
       {/* PRINCIPLES */}
       <section style={{ marginBottom: "5rem" }}>
         <div style={{ marginBottom: "3.5rem" }}>
-          <h2 style={{ fontSize: "1.4rem", fontWeight: 500, marginBottom: "0.75rem" }}>
+          <h2 style={{ fontSize: "1.4rem", fontWeight: 500 }}>
             Clarity precedes change
           </h2>
           <p style={{ opacity: 0.8, lineHeight: 1.8, maxWidth: "620px" }}>
@@ -72,7 +66,7 @@ export default function Home() {
         </div>
 
         <div style={{ marginBottom: "3.5rem" }}>
-          <h2 style={{ fontSize: "1.4rem", fontWeight: 500, marginBottom: "0.75rem" }}>
+          <h2 style={{ fontSize: "1.4rem", fontWeight: 500 }}>
             Architecture before effort
           </h2>
           <p style={{ opacity: 0.8, lineHeight: 1.8, maxWidth: "620px" }}>
@@ -81,7 +75,7 @@ export default function Home() {
         </div>
 
         <div>
-          <h2 style={{ fontSize: "1.4rem", fontWeight: 500, marginBottom: "0.75rem" }}>
+          <h2 style={{ fontSize: "1.4rem", fontWeight: 500 }}>
             Agency is the outcome
           </h2>
           <p style={{ opacity: 0.8, lineHeight: 1.8, maxWidth: "620px" }}>
@@ -92,13 +86,7 @@ export default function Home() {
 
       {/* WORK WITH */}
       <section style={{ marginBottom: "5rem" }}>
-        <h2
-          style={{
-            fontSize: "1.6rem",
-            fontWeight: 500,
-            marginBottom: "1.5rem",
-          }}
-        >
+        <h2 style={{ fontSize: "1.6rem", fontWeight: 500 }}>
           Work with BrielOS
         </h2>
 
