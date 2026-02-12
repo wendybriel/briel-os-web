@@ -1,14 +1,6 @@
 export default function Home() {
   return (
-    <main
-      style={{
-        maxWidth: "900px",
-        margin: "0 auto",
-        padding: "5rem 2rem",
-        backgroundColor: "#F6F3F0",
-        color: "#2F3E4D",
-      }}
-    >
+    <main>
       {/* HERO */}
       <section style={{ marginBottom: "5rem" }}>
         <div
@@ -154,4 +146,3 @@ export default function Home() {
     </main>
   );
 }
- 
