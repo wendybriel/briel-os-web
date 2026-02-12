@@ -52,16 +52,30 @@ export default function Home() {
       </p>
 
       <p>
-        <a href="/contact">Initiate a Conversation</a>
+        <a href="mailto:briel.os@outlook.com">
+          Initiate a Conversation
+        </a>
       </p>
 
       <footer>
         <p>© 2026 BrielOS. Founded by Wendy Briel.</p>
+
         <p>
           <a
             href="https://substack.com/@thefilteredfolio?utm_source=user-menu"
             target="_blank"
             rel="noopener noreferrer"
+            style={{
+              fontSize: "0.875rem",
+              opacity: 0.7,
+              textDecoration: "none"
+            }}
+            onMouseEnter={(e) =>
+              (e.currentTarget.style.textDecoration = "underline")
+            }
+            onMouseLeave={(e) =>
+              (e.currentTarget.style.textDecoration = "none")
+            }
           >
             Method Substack
           </a>
