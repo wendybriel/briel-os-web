@@ -1,3 +1,6 @@
+Page · TSX
+Copy
+
 import Link from 'next/link'
 
 export default function Home() {
@@ -107,16 +110,3 @@ export default function Home() {
       <footer className="max-w-4xl mx-auto px-6 py-12 border-t border-[#52718B8E]/20">
         <div className="flex flex-col md:flex-row justify-between items-center text-[#2F32ED]/60 text-sm">
           <p>© 2026 BrielOS. Founded by Wendy Briel.</p>
-          <div className="flex gap-6 mt-4 md:mt-0">
-            <Link href="/method" className="hover:text-[#52718B8E] transition-colors">
-              Method
-            </Link>
-            <a href="https://thefilteredfolio.substack.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#52718B8E] transition-colors">
-              Substack
-            </a>
-          </div>
-        </div>
-      </footer>
-    </main>
-  )
-}
