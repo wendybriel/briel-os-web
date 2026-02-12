@@ -5,8 +5,7 @@ export default function Home() {
         maxWidth: "900px",
         margin: "0 auto",
         padding: "5rem 2rem",
-        fontFamily:
-          "-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif",
+        backgroundColor: "#F6F3F0",
         color: "#2F3E4D",
       }}
     >
@@ -16,17 +15,17 @@ export default function Home() {
           style={{
             letterSpacing: "0.18em",
             textTransform: "uppercase",
-            opacity: 0.75,
-            marginBottom: "1.5rem",
-            fontSize: "0.85rem",
+            opacity: 0.7,
+            marginBottom: "1.25rem",
+            fontSize: "0.8rem",
           }}
         >
-          BrielOS
+          BRIELOS
         </div>
 
         <h1
           style={{
-            fontSize: "2.4rem",
+            fontSize: "2.6rem",
             fontWeight: 500,
             lineHeight: 1.25,
             marginBottom: "2rem",
@@ -43,7 +42,7 @@ export default function Home() {
             opacity: 0.9,
           }}
         >
-          Clear Signal Design™ — Quiet systems for complex decisions.
+          Clear Signal Design™ — quiet systems for complex decisions.
           <br />
           Most performance failures are not motivational. They are architectural.
           <br />
@@ -57,7 +56,7 @@ export default function Home() {
       {/* PRINCIPLES */}
       <section style={{ marginBottom: "5rem" }}>
         <div style={{ marginBottom: "3.5rem" }}>
-          <h2 style={{ fontSize: "1.4rem", fontWeight: 500 }}>
+          <h2 style={{ fontSize: "1.4rem", fontWeight: 500, marginBottom: "0.75rem" }}>
             Clarity precedes change
           </h2>
           <p style={{ opacity: 0.8, lineHeight: 1.8, maxWidth: "620px" }}>
@@ -66,7 +65,7 @@ export default function Home() {
         </div>
 
         <div style={{ marginBottom: "3.5rem" }}>
-          <h2 style={{ fontSize: "1.4rem", fontWeight: 500 }}>
+          <h2 style={{ fontSize: "1.4rem", fontWeight: 500, marginBottom: "0.75rem" }}>
             Architecture before effort
           </h2>
           <p style={{ opacity: 0.8, lineHeight: 1.8, maxWidth: "620px" }}>
@@ -75,7 +74,7 @@ export default function Home() {
         </div>
 
         <div>
-          <h2 style={{ fontSize: "1.4rem", fontWeight: 500 }}>
+          <h2 style={{ fontSize: "1.4rem", fontWeight: 500, marginBottom: "0.75rem" }}>
             Agency is the outcome
           </h2>
           <p style={{ opacity: 0.8, lineHeight: 1.8, maxWidth: "620px" }}>
@@ -86,7 +85,13 @@ export default function Home() {
 
       {/* WORK WITH */}
       <section style={{ marginBottom: "5rem" }}>
-        <h2 style={{ fontSize: "1.6rem", fontWeight: 500 }}>
+        <h2
+          style={{
+            fontSize: "1.6rem",
+            fontWeight: 500,
+            marginBottom: "1.5rem",
+          }}
+        >
           Work with BrielOS
         </h2>
 
@@ -119,7 +124,7 @@ export default function Home() {
         <p>© 2026 BrielOS. Founded by Wendy Briel.</p>
         <p style={{ marginTop: "0.75rem" }}>
           <a
-            href="https://substack.com/@thefilteredfolio"
+            href="https://substack.com/@thefilteredfolio?utm_source=user-menu"
             target="_blank"
             rel="noopener noreferrer"
             style={{
