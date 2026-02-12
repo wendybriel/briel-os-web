@@ -1,79 +1,169 @@
 export default function Home() {
   return (
-    <main>
-      <h1>BrielOS</h1>
+    <main
+      style={{
+        maxWidth: "900px",
+        margin: "0 auto",
+        padding: "5rem 2rem",
+        backgroundColor: "#F6F3F0",
+        color: "#2F3E4D",
+      }}
+    >
+      {/* HERO FIELD */}
+      <section style={{ marginBottom: "5rem" }}>
+        <p
+          style={{
+            letterSpacing: "0.18em",
+            textTransform: "uppercase",
+            opacity: 0.75,
+            marginBottom: "1.5rem",
+          }}
+        >
+          BrielOS
+        </p>
 
-      <h2>Decision Architecture for Founders</h2>
+        <h1
+          style={{
+            fontSize: "2.4rem",
+            fontWeight: 500,
+            lineHeight: 1.25,
+            marginBottom: "2rem",
+          }}
+        >
+          Decision Architecture for Founders
+        </h1>
 
-      <p>Clear Signal Design™ — Quiet systems for complex decisions</p>
+        <p
+          style={{
+            fontSize: "1.05rem",
+            lineHeight: 1.9,
+            maxWidth: "640px",
+            opacity: 0.9,
+          }}
+        >
+          Clear Signal Design™ — Quiet systems for complex decisions.
+          <br />
+          Most performance failures are not motivational. They are architectural.
+          <br />
+          We design operating systems that restore clarity, coherence, and
+          authorship.
+          <br />
+          We do not coach. We diagnose and redesign.
+        </p>
 
-      <p>
-        Most performance failures are not motivational. They are architectural.
-      </p>
+        <p style={{ marginTop: "3rem" }}>
+          <a
+            href="/method"
+            style={{
+              textDecoration: "none",
+              color: "#5271B8",
+              fontWeight: 500,
+            }}
+          >
+            View the Method →
+          </a>
+        </p>
+      </section>
 
-      <p>
-        BrielOS exists to design operating systems that restore clarity,
-        coherence, and authorship in founder and organizational systems.
-      </p>
+      {/* PRINCIPLES — AUREXA RHYTHM */}
+      <section style={{ marginBottom: "5rem" }}>
+        <div style={{ marginBottom: "3.5rem" }}>
+          <h2
+            style={{
+              fontSize: "1.4rem",
+              fontWeight: 500,
+              marginBottom: "0.75rem",
+            }}
+          >
+            Clarity precedes change
+          </h2>
+          <p style={{ opacity: 0.8, lineHeight: 1.8, maxWidth: "620px" }}>
+            We separate signal from noise to restore decision quality under
+            pressure.
+          </p>
+        </div>
 
-      <p>We do not coach. We diagnose and redesign.</p>
+        <div style={{ marginBottom: "3.5rem" }}>
+          <h2
+            style={{
+              fontSize: "1.4rem",
+              fontWeight: 500,
+              marginBottom: "0.75rem",
+            }}
+          >
+            Architecture before effort
+          </h2>
+          <p style={{ opacity: 0.8, lineHeight: 1.8, maxWidth: "620px" }}>
+            Systems hold when feelings don’t. We redesign structure, not
+            motivation.
+          </p>
+        </div>
 
-      <p>
-        <a href="/method">View the Method</a>
-      </p>
+        <div>
+          <h2
+            style={{
+              fontSize: "1.4rem",
+              fontWeight: 500,
+              marginBottom: "0.75rem",
+            }}
+          >
+            Agency is the outcome
+          </h2>
+          <p style={{ opacity: 0.8, lineHeight: 1.8, maxWidth: "620px" }}>
+            Success is measured by restored authorship, not compliance.
+          </p>
+        </div>
+      </section>
 
-      <h3>Clarity precedes change</h3>
+      {/* WORK WITH */}
+      <section style={{ marginBottom: "5rem" }}>
+        <h2
+          style={{
+            fontSize: "1.6rem",
+            fontWeight: 500,
+            marginBottom: "1.5rem",
+          }}
+        >
+          Work with BrielOS
+        </h2>
 
-      <p>
-        We separate signal from noise to restore decision quality under pressure.
-      </p>
+        <p
+          style={{
+            opacity: 0.85,
+            lineHeight: 1.9,
+            maxWidth: "640px",
+            marginBottom: "2.5rem",
+          }}
+        >
+          We work with founders at inflection points — moments of formation or
+          strain where clarity matters most.
+        </p>
 
-      <h3>Architecture before effort</h3>
-
-      <p>
-        Systems hold when feelings don’t. We redesign structure, not motivation.
-      </p>
-
-      <h3>Agency is the outcome</h3>
-
-      <p>
-        Success is measured by restored authorship, not compliance.
-      </p>
-
-      <h3>Work with BrielOS</h3>
-
-      <p>
-        We work with founders at inflection points — moments of formation or
-        strain where clarity matters most.
-      </p>
-
-      <p>
         <a
           href="mailto:briel.os@outlook.com"
-          aria-label="Email BrielOS"
+          style={{
+            textDecoration: "none",
+            color: "#5271B8",
+            fontWeight: 500,
+          }}
         >
-          Initiate a Conversation
+          Initiate a Conversation →
         </a>
-      </p>
+      </section>
 
-      <footer>
+      {/* FOOTER */}
+      <footer style={{ opacity: 0.65 }}>
         <p>© 2026 BrielOS. Founded by Wendy Briel.</p>
-
-        <p>
+        <p style={{ marginTop: "0.75rem" }}>
           <a
             href="https://substack.com/@thefilteredfolio?utm_source=user-menu"
             target="_blank"
             rel="noopener noreferrer"
             style={{
-              fontSize: "0.875rem",
-              opacity: 0.65,
               textDecoration: "none",
-            }}
-            onMouseEnter={(e) => {
-              e.currentTarget.style.textDecoration = "underline";
-            }}
-            onMouseLeave={(e) => {
-              e.currentTarget.style.textDecoration = "none";
+              fontSize: "0.85rem",
+              opacity: 0.7,
+              color: "#2F3E4D",
             }}
           >
             Method Substack
