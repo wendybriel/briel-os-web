@@ -1,22 +1,20 @@
-export default function AurexaPage() {
-  return (
-    <main style={{ padding: "96px 24px", textAlign: "center" }}>
-      <div style={{ maxWidth: 760, margin: "0 auto" }}>
-        <div style={{ letterSpacing: "0.18em", fontSize: 14 }}>
-          HOUSE AUREXA
-        </div>
+<section style={{ marginTop: "4rem", textAlign: "center" }}>
+  <h2 style={{ fontSize: "1.25rem", fontWeight: 500, marginBottom: "1.5rem" }}>
+    Objects
+  </h2>
 
-        <h1 style={{ marginTop: 40, fontSize: 40, fontWeight: 400 }}>
-          A space for integration, coherence,
-          <br />
-          and quiet return.
-        </h1>
+  <p style={{ opacity: 0.75, lineHeight: 1.8, maxWidth: 520, margin: "0 auto 2rem" }}>
+    Quiet digital objects designed for individual clarity and coherence.
+  </p>
 
-        <button style={{ marginTop: 28, padding: "10px 18px" }}>
-          Enter
-        </button>
-      </div>
-    </main>
-  );
-}
-
+  <p>
+    <a
+      href="https://gumroad.com"
+      target="_blank"
+      rel="noopener noreferrer"
+      style={{ textDecoration: "none", opacity: 0.85 }}
+    >
+      View on Gumroad →
+    </a>
+  </p>
+</section>
